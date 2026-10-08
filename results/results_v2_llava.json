@@ -1,0 +1,289 @@
+[
+  {
+    "image_id": "density_02_s0",
+    "true_count": 2,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are two objects in the image."
+  },
+  {
+    "image_id": "density_03_s0",
+    "true_count": 3,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are three objects in the image."
+  },
+  {
+    "image_id": "density_04_s0",
+    "true_count": 4,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_05_s0",
+    "true_count": 5,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_06_s0",
+    "true_count": 6,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_07_s0",
+    "true_count": 7,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are six objects in the image."
+  },
+  {
+    "image_id": "density_08_s0",
+    "true_count": 8,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "density_09_s0",
+    "true_count": 9,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "density_10_s0",
+    "true_count": 10,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are six objects in the image."
+  },
+  {
+    "image_id": "density_11_s0",
+    "true_count": 11,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are six objects in the image."
+  },
+  {
+    "image_id": "density_12_s0",
+    "true_count": 12,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "density_13_s0",
+    "true_count": 13,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a grid of nine circles, each with a different color."
+  },
+  {
+    "image_id": "density_14_s0",
+    "true_count": 14,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a total of 12 objects, which are arranged in a 4x3 grid."
+  },
+  {
+    "image_id": "density_15_s0",
+    "true_count": 15,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are 16 objects in the image."
+  },
+  {
+    "image_id": "density_16_s0",
+    "true_count": 16,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image contains 16 objects, which are arranged in a 4x4 grid."
+  },
+  {
+    "image_id": "density_02_s1",
+    "true_count": 2,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are two objects in the image."
+  },
+  {
+    "image_id": "density_03_s1",
+    "true_count": 3,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are three objects in the image."
+  },
+  {
+    "image_id": "density_04_s1",
+    "true_count": 4,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_05_s1",
+    "true_count": 5,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_06_s1",
+    "true_count": 6,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "density_07_s1",
+    "true_count": 7,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are six objects in the image."
+  },
+  {
+    "image_id": "density_08_s1",
+    "true_count": 8,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "density_09_s1",
+    "true_count": 9,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "density_10_s1",
+    "true_count": 10,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a total of 12 objects, which are arranged in a 4x3 grid. Each row contains three objects, and each object is a different color."
+  },
+  {
+    "image_id": "density_11_s1",
+    "true_count": 11,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "There are six objects in the image."
+  },
+  {
+    "image_id": "density_12_s1",
+    "true_count": 12,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a collection of circles, each with a different color. There are nine circles in total, arranged in a 3x3 grid."
+  },
+  {
+    "image_id": "density_13_s1",
+    "true_count": 13,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a grid of nine circles, each with a different color."
+  },
+  {
+    "image_id": "density_14_s1",
+    "true_count": 14,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a total of 12 objects, which are arranged in a 4x3 grid."
+  },
+  {
+    "image_id": "density_15_s1",
+    "true_count": 15,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a grid of nine circles, each with a different color."
+  },
+  {
+    "image_id": "density_16_s1",
+    "true_count": 16,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "density",
+    "model_answer": "The image shows a grid of circles, each containing a different color. There are nine circles in total, arranged in a 3x3 grid."
+  },
+  {
+    "image_id": "sizevaried_03",
+    "true_count": 3,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "size_control",
+    "model_answer": "There are two objects in the image."
+  },
+  {
+    "image_id": "sizevaried_06",
+    "true_count": 6,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "size_control",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "sizevaried_09",
+    "true_count": 9,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "size_control",
+    "model_answer": "There are nine objects in the image."
+  },
+  {
+    "image_id": "sizevaried_12",
+    "true_count": 12,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "size_control",
+    "model_answer": "The image shows a grid of nine circles, each containing a different color. There are three circles in each row, and each row has three colors: red, blue, and green. So, there are a total of 9 circles."
+  },
+  {
+    "image_id": "sizevaried_15",
+    "true_count": 15,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "size_control",
+    "model_answer": "The image shows a grid of circles, each containing a different colored dot. There are a total of 16 circles in the image, with each circle containing one dot."
+  },
+  {
+    "image_id": "occlusion_neg100",
+    "true_count": 8,
+    "occlusion_ratio": -1.0,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "occlusion_neg50",
+    "true_count": 8,
+    "occlusion_ratio": -0.5,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "occlusion_0",
+    "true_count": 8,
+    "occlusion_ratio": 0.0,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "occlusion_25",
+    "true_count": 8,
+    "occlusion_ratio": 0.25,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "occlusion_50",
+    "true_count": 8,
+    "occlusion_ratio": 0.5,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  },
+  {
+    "image_id": "occlusion_75",
+    "true_count": 8,
+    "occlusion_ratio": 0.75,
+    "sweep_type": "occlusion",
+    "model_answer": "There are four objects in the image."
+  }
+]
