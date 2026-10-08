@@ -1,8 +1,8 @@
 # VLM Probing
 
-Controlled stress sweeps (density, occlusion) as a first step toward extreme cases for vision-language models, paired with layer-wise probing of internal representations.
+Controlled stress sweeps (density, occlusion) on vision-language models, paired with layer-wise probing of internal representations. Act 1 is a mild first pass toward extreme cases; genuinely extreme cases (counterfactually edited illusions) are the planned next step.
 
-**Status:** Act 1 (counting / occlusion): The preliminary stage where I read through similar papers and replicated is done.
+**Status:** Act 1 (counting / occlusion) is complete and preliminary. It largely replicates existing findings, so I treat it as a calibration step and the reason for moving to Act 2.
 
 ## Motivation
 
