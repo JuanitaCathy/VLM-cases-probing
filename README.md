@@ -10,6 +10,34 @@ Standard benchmarks give a single accuracy number. A more informative approach i
 
 > When a VLM gives a wrong answer on an extreme case, is the correct information absent from its internal representations, or present but not reflected in the output?
 
+## Research question
+
+When a VLM fails on a controlled but hard visual case, which of these is the cause?
+
+1. **Encoding failure:** the relevant information never appears in the model's internal representations.
+2. **Output-stage misalignment:** the information is present internally but is not reflected in the final answer.
+3. **Prior/template override:** the answer is driven by a learned layout or language prior more than by the specific image.
+
+### Act 1: counting and occlusion (done, preliminary)
+
+- **Hypothesis:** if failures are output-stage, a linear probe should recover the true count from hidden states even on items where the model's spoken answer is wrong.
+- **Would count against it:** probe error at or near the shuffled-label control on the failure cases.
+- **Outcome:** probes beat the shuffled control at every layer in both models, so encoding failure is not the main story here. The models differ in the shape of the curve (see Results).
+
+### Act 2: visual illusions with counterfactual edits (planned)
+
+- **Setup:** classic illusions (e.g. Ebbinghaus, Muller-Lyer, checkerboard brightness) at graded edit strengths, from the original illusion to a fully edited image where the illusion no longer holds, plus matched no-inducer controls.
+- **Question:** when a model keeps giving the illusory answer after an edit that should change it, which of the three failure types above is it?
+- **Predictions:**
+  - Encoding failure: probes for the post-edit ground truth stay near chance at all layers.
+  - Output-stage misalignment: probes rise above chance in mid/late layers while the spoken answer stays wrong, and patching activations from a matched control run should flip the answer.
+  - Prior/template override: behavior is insensitive to edit strength across models and illusion types, with a weaker or inconsistent probe signal.
+- **Would count against the output-stage account:** patching at the layer flagged by probing does not change the answer more often than patching a random layer.
+
+### What this does not claim
+
+Probing shows information is decodable, not that the model uses it. Causal claims need intervention experiments, which are planned for Act 2 and not done.
+
 ## Setup
 
 - **Models:** Qwen2-VL-7B-Instruct and LLaVA-1.6-7B (Mistral), both 4-bit quantized, run on a Colab T4.
