@@ -42,13 +42,14 @@ Standard benchmarks give a single accuracy number. A more informative approach i
 
 The count information is present internally for both models, so these errors are not simply a failure to see the objects. The models differ in how they fail: Qwen's errors look like imprecise estimation plus a proximity-based merging of touching objects; LLaVA's look more like defaulting to familiar layout counts. This is consistent with the "the count is there but misaligned" pattern reported in recent work (see `literature_review.md`), so this repo does not claim novelty for the counting result.
 
-## Limitations
+### Related Work
 
-- Small sample (41 images)
-- Hidden states are mean-pooled over all tokens (image and prompt), not visual tokens only.
-- The layer where decodability peaks changed between a 19-image and a 41-image run for Qwen, so the claim is "decodable at every layer," not a specific layer.
-- Probes are linear regressions on a dataset where count correlates with other image statistics. The size-varied control is supported by model behavior only; a regression on those 5 images was overfit.
-- The alpha = 0 occlusion condition already has circles touching, so the fully separated and partially separated conditions were added to get a real baseline.
+- **The Count Is There, but Misaligned: Understanding and Correcting Counting Failures in VLMs** (arXiv:2607.09544, 2026). Layer-wise probing across several VLMs and counting datasets; reports that the correct count is often linearly decodable from internal activations even when the verbalized answer is wrong, and validates causally with activation steering.
+- **Counting Circuits: Mechanistic Interpretability of Visual Reasoning in Large Vision-Language Models** (arXiv:2603.18523, 2026). Identifies attention-head roles in counting using activation patching and reports a subitizing-versus-estimation split. The mechanistic counting question is already studied in depth there.
+- **Can Vision-Language Models Count? A Synthetic Benchmark and Analysis of Attention-Based Interventions** (arXiv:2511.17722, 2025). Controlled synthetic counting benchmark with attention interventions; similar one-variable-at-a-time spirit.
+- **Do VLMs Perceive or Recall? Probing Visual Perception vs. Memory with Classic Visual Illusions** (arXiv:2601.22150, 2026). Introduces VI-Probe: graded counterfactual perturbations of classic illusions with matched controls; reports that persistence of illusory answers differs across model families. The evidence is behavioral. This motivates Act 2.
+
+**Note**: the counting result replicates existing findings. The planned contribution, if any, is applying layer-wise probing and activation patching to the illusion setting, which I did not find done in the papers above.
 
 ## What's next: Act 2
 
